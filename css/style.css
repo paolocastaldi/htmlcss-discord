@@ -51,24 +51,6 @@ hr{
     margin: 0 auto;
 }
 
-
-.box2{
-    background-color:white;
-    padding: 30px;
-}
-
-.box3{
-    background-color: rgba(211,211,211,255);
-    padding: 30px;
-
-}
-
-.box4{
-    background-color:white;
-    padding: 30px;
-
-}
-
 .fuchsia-centered-box{
     color: white;
     display: flex;
@@ -93,24 +75,43 @@ hr{
     border-radius: 10px;
     padding: 5px;
 }
+
 .put-beside{
     display: inline-block;
 }
 
-
-
-.light-blue-box{
-    width: 60%;
-    height: 300px;
-    background-color: rgba(30,144,255,255);
-    border: 1px dashed black;
+.action-download:before{
+    content: ' \2193';
+    color: black;
 }
 
-.pink-box{
-    width: 40%;
+.box-odds{
+    background-color:white;
+    padding: 10px;
+}
+
+.box-even{
+    background-color:#F5F5F5;
+    padding: 10px;
+}
+
+.text-area{
     height: 300px;
-    background-color: pink;
-    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+.text-area h1{
+    color: black;
+}
+
+.box-odds .container{
+    justify-content: flex-start;
+}
+
+.box-even .container{
+    justify-content: flex-end;
 }
 
 .box5{
