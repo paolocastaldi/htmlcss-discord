@@ -26,8 +26,8 @@ hr{
 
 .header-mid li a{
     color: white;
-    text-decoration: none;
     padding: 15px;
+    text-decoration: none;
 }
 
 .header-sx,
@@ -77,17 +77,28 @@ hr{
 .button{
     background-color: white;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
 }
 
 .put-beside{
     display: inline-block;
+    padding: 20px;
 }
+
+.button-dark{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    background-color:  #292B2E;
+}
+
 
 .action-download:before{
     content: ' \2193';
     color: black;
+    
 }
 
 .box-odds{
@@ -142,8 +153,6 @@ main .central-section .size-image img{
 
 .button2{
     background-color: white;
-    
-    
 }
 
 main .central-section .button2 {
@@ -176,39 +185,95 @@ main .central-section .button2 {
 
 }
 
-
-.sub-container{
-    display: flex;
-    width: 67%;
+footer {
+    background-color: #292B2E;
+    color: white;
+    height: 450px;
 }
 
 
-.pink-box2{
-    width: 33%;
-    height: 300px;
-    background-color: rgba(240,128,128,255);
-    border: 1px dashed black;
-   
+.footer-links {
+    height: 270px;
+    border-bottom: 1px solid #929fdd44;
 }
 
 
-
-footer{
-    background-color: black;
-    padding: 30px;
+.footer-container {
+    padding-top: 60px;
+    width: 780px;
+    margin: auto;
 }
 
-.footer-sub-container{
-    display: flex;
-    height: 100px;
-    background-color: aquamarine;
-    justify-content: space-between;
-    align-items: center;
-
+.footer-block-social, .footer-block-generic {
+    display: inline-block;
+    float: left;
 }
 
-.little-pink-footer-box{
-    background-color: pink;
-    padding: 10px;
-
+.footer-block-social img{
+    width: 15px;
+    vertical-align: middle;
 }
+
+.footer-block-title, h4 {
+    color: #929FDD;
+    font-weight: bold;
+}
+
+.footer-block-title, a{
+    text-decoration: none;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.footer-block-social i {
+    font-size: 13px;
+    margin-right: 13px;
+}
+
+#language-selector {
+    font-size: 6px;
+    vertical-align: middle;
+}
+
+.footer-block-social {
+    width: 200px;
+}
+
+.socials {
+    margin-top: 5px;
+}
+
+.footer-block-generic {
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0 35px;
+}
+
+.footer-block-generic li {
+    list-style: none;
+}
+
+.footer-block-generic li a {
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 25px;
+}
+
+.footer-bottom img{
+    width: 80px;
+    float: left;
+}
+
+.footer-bottom a {
+    float: right;
+    padding: 6px 8px;
+    font-size: 10px;
+    text-decoration: none;
+    background-color: #929FDD;
+    color: white;
+}
+
